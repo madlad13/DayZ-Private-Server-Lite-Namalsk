@@ -18,7 +18,7 @@ Directories
  NOTE: The DayZ & DayZ: Namalsk Client Files must be installed prior to installing this server pack.
 
  - **@dayz** - DayZ Client
- - **@dayz_namalsk** - DayZ Namalsk Client
+ - **@NC** - DayZ Namalsk Client
  - **@hive** - DayZ Server And Hive
  - **DayZConfig** - Server Settings
  - **DayZUtilites** - Server Tools
