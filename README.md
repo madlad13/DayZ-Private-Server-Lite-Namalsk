@@ -27,13 +27,29 @@ Directories
 Installation
 ------------
 
+ NOTE: Steps with a * infront of them are optinial.
+
+ 1. Download the required client files (DayZ & DayZ: Namalsk) and extract them into your Arma 2 Combined Operations directory (@dayz & @dayz_namalsk)
+ 2. Extract all the contents in this repo into your Arma 2 Combined Operations directory.
+ 3. Configure your server by editing `ServerSettings.cfg` (Located in **DayZConfig**)
+ 4. * Configure your namalsk mission by editing `Init.sqf` (Located in **MPMissions**)
+ 5. * Configure your server ip/port by editing `Start Server.bat`
+ 6. Execute `Start Server.bat` and wait for the Arma 2 Dedicated Server Console to appear.
+ 7. Enjoy!
 
 Vehicles
 --------
 
+ NOTE: All vehicle spawns included in this server pack are the Official DayZ: Namalsk vehicle spawns.
+
+ - Vehicle spawn points are in the `object_spawns` table in the Database.
+ - Vehicle spawn chances, damage, classnames etc. are in the `object_classes` table in the Database.
 
 Utilities
 ---------
+
+ - Update Battleye Filters (Located in **DayZUtilities**)
+ - Update Battleye Bans (Located in **DayZUtilites**)
 
 Known Bugs
 ----------
