@@ -13,13 +13,13 @@ ns_blowout = true;			// Make this false for disabling random EVR discharges (blo
 ns_blowout_dayz = true;		// Leave this always true or it will create a very huuuge mess
 dayzNam_buildingLoot = "CfgBuildingLootNamalsk";	// can be CfgBuildingLootNamalskNOER7 (function of this pretty obvious), CfgBuildingLootNamalskNOSniper (CfgBuildingLootNamalskNOER7 + no sniper rifles), default is CfgBuildingLootNamalsk
 
-call compile preprocessFileLineNumbers "\z\addons\dayz_code\init\variables.sqf";
+call compile preprocessFileLineNumbers "\nst\ns_dayz\code\init\variables.sqf";
 progressLoadingScreen 0.1;
 call compile preprocessFileLineNumbers "\z\addons\dayz_code\init\publicEH.sqf";
 progressLoadingScreen 0.2;
 call compile preprocessFileLineNumbers "\z\addons\dayz_code\medical\setup_functions_med.sqf";
 progressLoadingScreen 0.4;
-call compile preprocessFileLineNumbers "\z\addons\dayz_code\init\compiles.sqf";
+call compile preprocessFileLineNumbers "\nst\ns_dayz\code\init\compiles.sqf";
 progressLoadingScreen 1.0;
 
 player setVariable ["BIS_noCoreConversations", true];
