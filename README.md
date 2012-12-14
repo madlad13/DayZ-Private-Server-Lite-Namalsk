@@ -15,6 +15,8 @@ Requirements
 Directories
 -----------
 
+ NOTE: The DayZ & DayZ: Namalsk Client Files must be installed prior to installing this server pack.
+
  - **@dayz** - DayZ Client
  - **@dayz_namalsk** - DayZ Namalsk Client
  - **@hive** - DayZ Server And Hive
@@ -29,13 +31,12 @@ Installation
 
  NOTE: Steps with a * infront of them are optinial.
 
- 1. Download the required client files (DayZ & DayZ: Namalsk) and extract them into your Arma 2 Combined Operations directory (@dayz & @dayz_namalsk)
- 2. Extract all the contents in this repo into your Arma 2 Combined Operations directory.
- 3. Configure your server by editing `ServerSettings.cfg` (Located in **DayZConfig**)
- 4. * Configure your namalsk mission by editing `Init.sqf` (Located in **MPMissions**)
- 5. * Configure your server ip/port by editing `Start Server.bat`
- 6. Execute `Start Server.bat` and wait for the Arma 2 Dedicated Server Console to appear.
- 7. Enjoy!
+ 1. Extract all the contents in this repo into your Arma 2 Combined Operations directory.
+ 2. Configure your server by editing `ServerSettings.cfg` (Located in **DayZConfig**)
+ 3. * Configure your namalsk mission by editing `Init.sqf` (Located in **MPMissions**)
+ 4. * Configure your server ip/port by editing `Start Server.bat`
+ 5. Execute `Start Server.bat` and wait for the Arma 2 Dedicated Server Console to appear.
+ 6. Enjoy!
 
 Vehicles
 --------
