@@ -29,14 +29,15 @@ Directories
 Installation
 ------------
 
- NOTE: Steps with a * infront of them are optinial.
+ NOTE: Steps with a * infront of them are optional.
 
  1. Extract all the contents in this repo into your Arma 2 Combined Operations directory.
  2. Configure your server by editing `ServerSettings.cfg` (Located in **DayZConfig**)
  3. * Configure your namalsk mission by editing `Init.sqf` (Located in **MPMissions**)
- 4. * Configure your server ip/port by editing `Start Server.bat`
- 5. Execute `Start Server.bat` and wait for the Arma 2 Dedicated Server Console to appear.
- 6. Enjoy!
+ 4. * Configure your game port by editing `Start Server.bat`
+ 5. * Configure your Rcon password/max ping by editing `BEServer.cfg` (Located in **DayZConfig**/Battleye)
+ 6. Execute `Start Server.bat` and wait for the Arma 2 Dedicated Server Console to appear.
+ 7. Enjoy!
 
 Vehicles
 --------
