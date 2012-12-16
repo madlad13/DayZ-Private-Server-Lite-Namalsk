@@ -50,8 +50,13 @@ Vehicles
 Utilities
 ---------
 
- - Update Battleye Filters (Located in **DayZUtilities**)
- - Update Battleye Bans (Located in **DayZUtilites**)
+ NOTE: All utilities are located in **DayZUtilities**.
+
+ - Backup Database
+ - Clear Server Logs
+ - Update Battleye Bans
+ - Update Battleye Filters
+ - Update Battleye
 
 Known Bugs
 ----------
@@ -69,3 +74,6 @@ Common Issues
 
 **Problem**: "Bad CD Key" messages	
 **Solution**: Buy the game.
+
+**Problem**: "BE Cannot Connect To Master Server" in the console window							
+**Solution**: Run `Update Battleye.bat` in **DayZUtilities**
