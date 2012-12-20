@@ -72,8 +72,14 @@ Common Issues
 **Problem**: Server not shown on the in-game browser or on third-party server browsers (DayZCommander etc.)       
 **Solution**: Ensure the game ports (Default: 2302 - 2305 UDP) are forwarded properly. 
 
-**Problem**: "Bad CD Key" messages	
+**Problem**: "Bad CD Key" messages
 **Solution**: Buy the game.
 
 **Problem**: "BE Cannot Connect To Master Server" in the console window							
 **Solution**: Run `Update Battleye.bat` in **DayZUtilities**
+
+Donate
+------
+
+ - If you like my work and you like what i do for the dayz community, you can donate [here] (https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=stapo19%40hotmail%2ecom&lc=AU&item_name=Stapo%27s%20Development&currency_code=AUD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted).
+
