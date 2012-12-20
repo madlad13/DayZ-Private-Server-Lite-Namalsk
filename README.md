@@ -72,7 +72,7 @@ Common Issues
 **Problem**: Server not shown on the in-game browser or on third-party server browsers (DayZCommander etc.)       
 **Solution**: Ensure the game ports (Default: 2302 - 2305 UDP) are forwarded properly. 
 
-**Problem**: "Bad CD Key" messages
+**Problem**: "Bad CD Key" messages                                
 **Solution**: Buy the game.
 
 **Problem**: "BE Cannot Connect To Master Server" in the console window							
