@@ -9,6 +9,7 @@ initialized = false;
 dayz_previousID = 0;
 
 dzn_ns_bloodsucker = true;		// Make this falso for disabling bloodsucker spawn
+dzn_ns_bloodsucker_den = 40; // Spawn chance of bloodsuckers, max 100 (100 == 0.72 version status == 100% spawn), ignore if dzn_ns_bloodsucker set to false
 ns_blowout = true;			// Make this false for disabling random EVR discharges (blowout module)
 ns_blowout_dayz = true;		// Leave this always true or it will create a very huuuge mess
 dayzNam_buildingLoot = "CfgBuildingLootNamalsk";	// can be CfgBuildingLootNamalskNOER7 (function of this pretty obvious), CfgBuildingLootNamalskNOSniper (CfgBuildingLootNamalskNOER7 + no sniper rifles), default is CfgBuildingLootNamalsk
@@ -33,8 +34,8 @@ if ((!isServer) && (isNull player) ) then {
 };
 
 if ((!isServer) && (player != player)) then {
-  waitUntil {player == player};
-  waitUntil {time > 3};
+	waitUntil {player == player};
+	waitUntil {time > 3};
 };
 
 if (isServer) then {
