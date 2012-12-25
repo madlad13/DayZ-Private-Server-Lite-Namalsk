@@ -18,7 +18,7 @@ Directories
  NOTE: The DayZ & DayZ: Namalsk Client Files must be installed prior to installing this server pack.
 
  - **@dayz** - DayZ Client
- - **@NC** - DayZ Namalsk Client
+ - **@NC** - DayZ: Namalsk Client
  - **@hive** - DayZ Server And Hive
  - **DayZConfig** - Server Settings
  - **DayZUtilites** - Server Tools
@@ -36,8 +36,9 @@ Installation
  3. * Configure your namalsk mission by editing `Init.sqf` (Located in **MPMissions**)
  4. * Configure your game port by editing `Start Server.bat`
  5. * Configure your Rcon password/max ping by editing `BEServer.cfg` (Located in **DayZConfig**/Battleye)
- 6. Execute `Start Server.bat` and wait for the Arma 2 Dedicated Server Console to appear.
- 7. Enjoy!
+ 6. * Configure your server timezone etc. by editing `HiveExt.ini` (Located in **DayZConfig**)
+ 7. Execute `Start Server.bat` and wait for the Arma 2 Dedicated Server Console to appear.
+ 8. Enjoy!
 
 Vehicles
 --------
@@ -54,6 +55,7 @@ Utilities
 
  - Backup Database
  - Clear Server Logs
+ - Optional Kill Messages
  - Update Battleye Bans
  - Update Battleye Filters
  - Update Battleye
