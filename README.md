@@ -33,7 +33,7 @@ Installation
 
  1. Extract all the contents in this repo into your Arma 2 Combined Operations directory.
  2. Configure your server by editing `ServerSettings.cfg` (Located in **DayZConfig**)
- 3. * Configure your namalsk mission by editing `Init.sqf` (Located in **MPMissions**)
+ 3. * Configure your namalsk mission by editing `Init.sqf` (Located in **MPMissions**/dayz_1.namalsk)
  4. * Configure your game port by editing `Start Server.bat`
  5. * Configure your Rcon password/max ping by editing `BEServer.cfg` (Located in **DayZConfig**/Battleye)
  6. * Configure your server timezone etc. by editing `HiveExt.ini` (Located in **DayZConfig**)
