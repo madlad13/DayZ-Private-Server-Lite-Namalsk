@@ -8,7 +8,7 @@ Requirements
  - ArmA 2 Combined Operations Dedicated Server (Steam users must merge ArmA2 and ArmA2 OA Directories)
  - Latest ArmA 2 Operation Arrowhead Beta Patch (http://www.arma2.com/beta-patch.php)
  - Latest DayZ Client Files (http://dayzmod.com/?Download) 
- - Latest DayZ Namalsk Client Files (http://nightstalkers.cz/en_index_dn.php?menu=en_dn_player)
+ - Latest DayZ Namalsk Client Files (http://cdn.dayz.st/dayzcommander/DayZNamalsk-0.73.rar)
  - MySQL Database program such as Navicat or MySQL Workbench
  - Microsoft Visual C++ 2010 SP1 x86 Redistributable (http://www.microsoft.com/en-us/download/details.aspx?id=8328)
  
@@ -18,7 +18,7 @@ Directories
  NOTE: The DayZ & DayZ: Namalsk Client Files must be installed prior to installing this server pack.
 
  - **@dayz** - DayZ Client
- - **@NC** - DayZ: Namalsk Client
+ - **@dayz_namalsk** - DayZ: Namalsk Client
  - **@hive** - DayZ Server And Hive
  - **DayZConfig** - Server Settings
  - **DayZUtilites** - Server Tools
